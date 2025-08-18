@@ -1,0 +1,11 @@
+body {
+    text-align: center;
+    font-family: 'Helvetica';
+    font-weight: 800;
+    background: rgb(89, 2, 35);
+    color: palevioletred;
+}
+
+a {
+    color: rgb(220, 64, 116);
+}

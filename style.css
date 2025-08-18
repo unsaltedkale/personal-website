@@ -1,0 +1,64 @@
+img {
+    width: 200px;
+    border: 400;
+}
+
+body {
+    text-align: center;
+    font-family: 'Sour Gummy';
+    font-weight: 800;
+    background: palevioletred;
+    color: rgb(89, 2, 35)
+}
+
+a {
+    color: rgb(128, 0, 0);
+}
+
+div {
+    width: 15%;
+    display: inline-block;
+}
+
+header {
+    text-align: center;
+    height: 60px;
+    color: rgb(255, 127, 187);
+    background: rgb(92, 6, 54);
+
+    a {
+        color: rgb(255, 127, 187);
+    }
+}
+
+footer {
+    text-align: center;
+    height: 60px;
+    color: rgb(255, 127, 187);
+    background: rgb(92, 6, 54);
+
+    a {
+        color: rgb(255, 127, 187);
+    }
+}
+
+ul {
+    background: rgb(173, 26, 99);
+    padding: 20px;
+    margin: 20px;
+}
+
+ul li {
+    background: rgb(255, 172, 201);
+    padding: 5px;
+    margin: 5px;
+}
+
+.sour-gummy-hestia {
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 150;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
