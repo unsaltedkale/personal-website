@@ -9,7 +9,11 @@ body {
     font-family: 'Sour Gummy';
     font-weight: 800;
     background: palevioletred;
-    color: rgb(89, 2, 35)
+    color: rgb(89, 2, 35);
+}
+
+div {
+    display: inline-block
 }
 
 a {
