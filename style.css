@@ -4,6 +4,10 @@ img {
     padding: 40px;
 }
 
+.pfp-picture {
+    max-width: 400px;
+}
+
 body {
     text-align: center;
     font-family: 'Sour Gummy';
@@ -67,7 +71,8 @@ header {
     rotate: 10deg;
     color: rgb(255, 202, 248);
     transform-origin: 75% 75%;
-    text-align: right;
+    text-align: center;
+    padding-left: 30%;
 }
 
 @keyframes wobble {
