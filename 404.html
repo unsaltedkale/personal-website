@@ -9,18 +9,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
 </head>
 
 <body>
     <br>
-    <img id="image" class="spider" src="https://files.catbox.moe/e5gogn.png" />
-
     <script>
         $(document).mousemove(function (e) {
             $("#image").stop().animate({ left: e.pageX, top: e.pageY });
         });
     </script>
+    <img id="image" class="spider" src="https://files.catbox.moe/e5gogn.png" />
+
+
 
     <h1> 404 error</h3>
         <p> whoops! this isn't a page!</p>
